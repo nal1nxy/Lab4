@@ -1,5 +1,11 @@
 """
-[enter proper module documentation]
+Practice with the dictionary built-in data type.
+
+File: test_constructor.py
+Initial developers: COMP 801 instructors
+Developer: Nalin
+Collaborator(s): Olivia
+Date:
 """
 from programming_languages import ProgrammingLanguages
 

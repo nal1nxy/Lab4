@@ -1,4 +1,4 @@
-- **Developer**: [enter your name and collaborator(s) names]
+- **Developer**: Nalin
 
 ## Design of `find_languages()` method
 

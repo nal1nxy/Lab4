@@ -1,5 +1,11 @@
 """
-[enter well-formed module docstring]
+Practice with the dictionary built-in data type.
+
+File: test_fin_languages.py
+Initial developers: COMP 801 instructors
+Developer: Nalin
+Collaborator(s): Olivia
+Date:
 """
 
 from programming_languages import ProgrammingLanguages
