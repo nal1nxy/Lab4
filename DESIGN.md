@@ -18,3 +18,8 @@
 ## Design of `find_languages()` method
 
 ## Design of `find_programmers()` method
+- Define  a method `find_programmers` with two parameters.
+- The first parameter being `self` of datatype class instance and `language` of datatype `string` representing the programming language.
+- Define a variable `list_of_programmers`.
+-  Assign the programmers list associated with the key `language` in the dictionary `self.languages` to the variable `list_of_programmers`.
+- Return `list_of_programmers`.
