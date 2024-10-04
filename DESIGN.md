@@ -1,6 +1,7 @@
 - **Developer**: Nalin
 
 ## Design of `constructor()` method
+
  - Define a constructor `init` with `self` being the current instance of the class.
  - The constructor `init`has two parameters `programmers` and `languages` of the datatype `list`.
  - Initialize the instance variables `self.languages` and `self.programmers` with empty dictionaries.
@@ -17,9 +18,16 @@
 
 ## Design of `find_languages()` method
 
+- Define a method `find_languages` with two parameters.
+- The first parameter being `self` of datatype class instance and `programmer` of datatype `string` representing the programmer.
+- Define a variable `list_of_languages`.
+- Assign the languages list associated with the key `programmer` in the dictionary `self.programmers` to the variable `list_of languages`.
+- Return `list_of_lanaguages`.
+
 ## Design of `find_programmers()` method
+
 - Define  a method `find_programmers` with two parameters.
 - The first parameter being `self` of datatype class instance and `language` of datatype `string` representing the programming language.
 - Define a variable `list_of_programmers`.
--  Assign the programmers list associated with the key `language` in the dictionary `self.languages` to the variable `list_of_programmers`.
+- Assign the programmers list associated with the key `language` in the dictionary `self.languages` to the variable `list_of_programmers`.
 - Return `list_of_programmers`.
