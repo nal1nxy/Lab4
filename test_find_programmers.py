@@ -19,7 +19,7 @@ def test_find_programmers_2_3_1():
     languages = [['C#', 'Python'], ['C++'], ['C']]
     pl = ProgrammingLanguages(programmers, languages)
     actual = pl.find_programmers(language)
-    expected = ['Nalin', 'Kumar']
+    expected = ['Nalin']
     assert actual == expected
 
 

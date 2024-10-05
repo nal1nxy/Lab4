@@ -8,7 +8,7 @@ Collaborator(s): Olivia
 Date:
 """
 from programming_languages import ProgrammingLanguages
-
+import pytest
 
 def test_constructor_2_2_1():
     """
@@ -46,3 +46,6 @@ def test_constructor_2_2_2():
     actual = (actual_p, actual_l)
     expected = (expected_p, expected_l)
     assert actual == expected
+
+
+pytest.main()
