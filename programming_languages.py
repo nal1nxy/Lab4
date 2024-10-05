@@ -48,6 +48,14 @@ class ProgrammingLanguages:
 
         self.languages = {}
         self.programmers = {}
+        index = 0
+        for programmer in programmers:
+            self.programmers[programmer] = languages[index]
+            for language in languages[index]:
+                if language not in self.languages:
+                    self.languages[language] = []
+                self.languages[language] = self.languages[language]+[programmer]
+            index = index + 1
 
     def find_programmers(self, language):
         """
