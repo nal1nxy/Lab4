@@ -70,5 +70,5 @@ class ProgrammingLanguages:
         :param programmer: a programmer's name in the form of a string.
         :return: a list languages in which the programmer is proficient.
         """
-
-        return []  # stub
+        list_of_languages = self.programmers[programmer]
+        return [list_of_languages]  # stub
