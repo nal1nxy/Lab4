@@ -62,8 +62,8 @@ class ProgrammingLanguages:
         :param language: a programming language in the form of a string.
         :return: a list of programmers proficient in the input language
         """
-
-        return []  # stub
+        list_of_programmers = self.languages[language]
+        return [list_of_programmers]  # stub
 
     def find_languages(self, programmer):
         """
